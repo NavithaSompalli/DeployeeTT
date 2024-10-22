@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+  }
+  
+  body{
+    background-color: aliceblue;
+  }
+  
+  h1{
+    color: rgb(12, 48, 48);
+    text-align: center;
+    display: block;
+  }
+  
+  label{
+    margin-top: 20px;
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 70px;
+  }
+  input{
+    margin-top: 5px;
+    height: 40px;
+    width: 340px;
+    margin-left: 60px;
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 0 10px;
+  }
+  a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    margin-left: 70px;
+    font-style: normal;
+  }
+  
+  .login-box{
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    display: flex;
+    background-color: rgb(251, 254, 255);
+  }
+  
+  .left-container{
+    height: 600px;
+    width: 400px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid transparent;
+  
+  }
+  
+  .right-container{
+    height: 500px;
+    width: 500px;
+    border-top-left-radius: 145px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgb(59, 59, 59);
+    background-image: url("https://res.cloudinary.com/dqyqjbuku/image/upload/v1718363130/IMG_9916_rk6wpm.jpg");
+    background-size: cover;
+  }
+  
+  
+  #login-cotation{
+    text-align: center;
+    padding-top: 80px;
+    width: 400;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  
+  .left-container p{
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: 0.75rem;
+    font-weight: 200;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .form-box{
+    margin-top: 30px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+  }
+  
+  .form-box label{
+    padding-left: 40px;
+  }
+  
+  
+  .form-box input{
+    width: 300px;
+    margin-left: 40px;
+  }
+  
+  #forgot-anch{
+    position: relative;
+    left: 180px;
+  }
+  
+  #toggle-Password{
+    width: 30px;
+    position: relative;
+    bottom: 28px;
+    left: 320px;
+  }
+  
+  
+  #login-button{
+  
+    margin-left: 50px;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(26, 26, 87);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  
+  #create-account{
+    margin-top: 60px;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+  }
+  
+  
